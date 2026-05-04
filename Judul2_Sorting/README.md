@@ -31,6 +31,14 @@ Ini bagian yang langsung berinteraksi dengan pengguna, dan ada tiga langkah di d
 Output Code:
 <img width="1919" height="1027" alt="Cuplikan layar 2026-05-02 203203" src="https://github.com/user-attachments/assets/a9ed7408-5e76-4c23-b919-08b30b65c129" />
 
+Output Code Ketika Salah Dalam Mengimputkan 
+<img width="260" height="47" alt="Cuplikan layar 2026-05-04 185544" src="https://github.com/user-attachments/assets/a64b7898-ed96-4f44-93f7-60e97176fa5a" />
 
 
-Link YouTube: https://youtu.be/TISxt_lZTB8?si=25KT6z3hE6cn-S4R
+
+
+<img width="304" height="128" alt="Cuplikan layar 2026-05-04 185600" src="https://github.com/user-attachments/assets/ce80562b-5dff-4b5b-96b4-4d7f89d65312" />
+
+
+
+Link YouTube: [https://youtu.be/TISxt_lZTB8?si=25KT6z3hE6cn-S4R](https://youtu.be/_7RgiM3VQsM?si=M6NZIIBrF7tVuitI)
