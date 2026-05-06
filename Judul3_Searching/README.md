@@ -6,3 +6,5 @@ Program ini berfungsi untuk mencari dan menghitung berapa kali sebuah nilai munc
 
 
 <img width="1402" height="1394" alt="code3" src="https://github.com/user-attachments/assets/d1eef323-c517-46cb-ac56-17e3aa77b667" />
+
+
