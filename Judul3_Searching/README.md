@@ -24,4 +24,11 @@ Output Code :
 Output Ketika User salah menginputkan data : 
 <img width="734" height="67" alt="Cuplikan layar 2026-05-06 154351" src="https://github.com/user-attachments/assets/8a2dd032-a0f2-4f82-9ee0-4c713c5d2786" />
 
-Link YouTube : 
+<img width="347" height="40" alt="Cuplikan layar 2026-05-06 180924" src="https://github.com/user-attachments/assets/ae0ba730-209d-4c80-9a2c-e12f1b32ac13" />
+
+
+
+
+
+
+Link YouTube : https://youtu.be/cFlNvvN9isA?si=GIysVwi9ox-zzzV7
