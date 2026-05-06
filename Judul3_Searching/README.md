@@ -1,4 +1,4 @@
-Tugas Akhir Percobaan 2
+Tugas Akhir Percobaan 3
 
 Judul Program : Pencarian Nilai Siswa
 
@@ -10,26 +10,18 @@ Program ini berfungsi untuk mencari dan menghitung berapa kali sebuah nilai munc
 Penjelasan Code : 
 
 Fungsi sequential_search
-Fungsi ini menggunakan konsep iterasi yaitu perulangan while yang berjalan selama kondisi i < n bernilai True. 
-
-Variabel i bertipe integer yang berfungsi sebagai index untuk mengakses elemen list satu per satu menggunakan data[i]. 
-
-Variabel counter juga bertipe integer yang nilainya bertambah menggunakan operator += setiap kali kondisi if terpenuhi. 
-
-Method .lower() bertipe string digunakan pada kedua sisi perbandingan agar pencarian bersifat case-insensitive, dan operator in digunakan untuk mengecek apakah substring target ada di dalam data[i]. 
-
-Di akhir fungsi, keyword return mengembalikan nilai counter ke pemanggil fungsi.
+Fungsi ini bertugas mencari nilai siswa di dalam daftar secara berurutan satu per satu dari awal sampai akhir. Fungsi ini menerima tiga parameter yaitu data sebagai daftar nilai, n sebagai jumlah data, dan target sebagai nilai yang ingin dicari. Di dalam fungsi terdapat variabel i sebagai penanda posisi dan counter sebagai penghitung, keduanya dimulai dari 0. Setiap kali nilai pada posisi data[i] sama dengan target maka counter akan bertambah 1, begitu terus sampai semua data selesai dicek. Hasil akhir counter dikembalikan ke program utama.
 
 Fungsi main
-Variabel data bertipe list of string yang menyimpan kumpulan nama barang. 
+Fungsi ini adalah program utama yang dijalankan pertama kali. Di sini dibuat daftar nilai siswa berupa angka seperti 75, 85, 90, dan seterusnya, lalu jumlah datanya dihitung otomatis dan ditampilkan ke layar. Setelah itu program meminta pengguna memasukkan nilai yang ingin dicari, jika input bukan angka maka program akan meminta ulang sampai inputnya benar. Setelah input valid diterima, fungsi sequential_search dipanggil untuk mencari nilai tersebut di dalam daftar. Jika nilai ditemukan maka ditampilkan berapa banyak siswa yang mendapat nilai tersebut, dan jika tidak ditemukan maka ditampilkan pesan bahwa nilai tidak ada dalam daftar.
 
-Fungsi bawaan len() digunakan untuk mendapatkan panjang list secara otomatis dan disimpan ke variabel n. 
 
-Blok while True dikombinasikan dengan try-except untuk menangani exception handling, dimana raise ValueError dipanggil secara manual ketika input kosong terdeteksi melalui method .strip(). 
+Output Code :
+<img width="774" height="66" alt="Cuplikan layar 2026-05-06 154304" src="https://github.com/user-attachments/assets/449a2c5b-4cfd-49df-bbdb-a01f0b96dda7" />
 
-Keyword break digunakan untuk keluar dari perulangan saat input valid diterima. 
 
-Fungsi sequential_search kemudian dipanggil dengan passing argument data, n, dan target, lalu hasilnya disimpan ke variabel counter. 
 
-Terakhir, struktur if-else digunakan untuk menentukan output yang ditampilkan menggunakan f-string ke layar.
+Output Ketika User salah menginputkan data : 
+<img width="734" height="67" alt="Cuplikan layar 2026-05-06 154351" src="https://github.com/user-attachments/assets/8a2dd032-a0f2-4f82-9ee0-4c713c5d2786" />
 
+Link YouTube : 
