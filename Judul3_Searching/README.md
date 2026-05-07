@@ -26,8 +26,15 @@ Output Ketika User salah menginputkan data :
 
 <img width="347" height="40" alt="Cuplikan layar 2026-05-06 180924" src="https://github.com/user-attachments/assets/ae0ba730-209d-4c80-9a2c-e12f1b32ac13" />
 
+Pada output program, tampilan pertama yang muncul adalah daftar nilai siswa yang sudah disimpan di dalam program. Daftar tersebut berisi beberapa nilai siswa yang nantinya akan digunakan dalam proses pencarian data nilai.
 
+Setelah daftar nilai ditampilkan, program meminta pengguna memasukkan nilai yang ingin dicari. Pengguna dapat mengetikkan angka sesuai nilai yang ingin diperiksa di dalam daftar.
 
+Kemudian program menjalankan proses pencarian untuk mengecek apakah nilai tersebut ada di dalam daftar. Jika nilai ditemukan, maka program akan menghitung berapa kali nilai tersebut muncul, lalu menampilkan hasil jumlah siswa yang memiliki nilai tersebut. Contohnya, ketika pengguna memasukkan nilai 75, program menampilkan bahwa nilai 75 ditemukan sebanyak 4 siswa.
+
+Jika nilai yang dimasukkan tidak ada di dalam daftar, maka program akan menampilkan pesan bahwa nilai tersebut tidak ditemukan. Contohnya saat pengguna memasukkan nilai 50, program memberikan informasi bahwa nilai 50 tidak ditemukan.
+
+Selain itu, program juga memiliki validasi input agar pengguna hanya dapat memasukkan angka. Jika pengguna memasukkan huruf atau karakter selain angka, seperti “abc”, maka program akan menampilkan pesan kesalahan berupa “Input tidak valid, silakan masukkan angka!”. Hal ini bertujuan agar program dapat berjalan dengan aman tanpa terjadi error saat proses pencarian data dilakukan.
 
 
 
