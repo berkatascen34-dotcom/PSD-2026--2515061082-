@@ -220,5 +220,5 @@ Ketika Sistem Menampilkan Urutan Antrean Kendaraan Yang Ada Dan Status Yang Terj
 Pada output program, tampilan pertama yang muncul adalah judul program, yaitu Sistem Antrean Kendaraan. Setelah itu, pengguna diberikan beberapa pilihan menu, seperti menambahkan kendaraan ke antrean, mengeluarkan kendaraan dari antrean, melihat kendaraan paling depan, menampilkan seluruh antrean, dan keluar dari program. Ketika pengguna memilih menu tambah kendaraan, program akan meminta pengguna memasukkan nama atau nomor kendaraan yang ingin dimasukkan ke dalam antrean. Setiap kendaraan yang berhasil dimasukkan akan disimpan sesuai urutan kedatangannya menggunakan konsep queue atau antrean. Setelah kendaraan masuk, program secara otomatis mengecek jumlah kendaraan yang sedang mengantre. Jika jumlah kendaraan masih di bawah 10, maka sistem akan menampilkan informasi bahwa antrean masih lancar dan aman. Namun, jika jumlah kendaraan sudah mencapai atau melebihi 10 kendaraan, sistem akan memberikan peringatan bahwa antrean sedang padat. Selain itu, program juga dapat menampilkan daftar seluruh kendaraan yang sedang berada di dalam antrean mulai dari kendaraan paling depan hingga paling belakang, sehingga pengguna dapat melihat kondisi antrean secara lengkap dan teratur.
 
 
-
+Link YouTube : 
 
