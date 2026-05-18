@@ -191,8 +191,29 @@ Bagian ini memastikan program utama dijalankan saat file Python dibuka.
 **54. `main()`**
 Menjalankan fungsi utama program antrean kendaraan.
 
+---
+
+Output 
+Ketika User Menambahkan Daftar Kendaraan ke Sistem
+<img width="337" height="233" alt="Cuplikan layar 2026-05-18 213626" src="https://github.com/user-attachments/assets/f7c9cab4-2c76-42b0-a4c5-c92e7196b87d" />
+
+---
+
+Ketika User Mengeluarkan Kendaraan Dari Antrean 
+<img width="341" height="177" alt="Cuplikan layar 2026-05-18 213841" src="https://github.com/user-attachments/assets/ab5eec72-b49e-4059-a895-96efc36b7789" />
+
+---
+
+Ketika User Meminta Sistem Menampilkan Daftar Mobil Yang Ada Di Depan
+<img width="306" height="178" alt="Cuplikan layar 2026-05-18 213924" src="https://github.com/user-attachments/assets/c4c1a8f9-a6c2-4775-ba9f-1f377412c6a5" />
+
+---
+
+Ketika Sistem Menampilkan Urutan Antrean Kendaraan Yang Ada Dan Status Yang Terjadi 
+<img width="328" height="435" alt="Cuplikan layar 2026-05-18 213910" src="https://github.com/user-attachments/assets/486f5052-cd77-4cd6-ad18-4aa688fbf52b" />
 
 
+Pada output program, tampilan pertama yang muncul adalah judul program, yaitu Sistem Antrean Kendaraan. Setelah itu, pengguna diberikan beberapa pilihan menu, seperti menambahkan kendaraan ke antrean, mengeluarkan kendaraan dari antrean, melihat kendaraan paling depan, menampilkan seluruh antrean, dan keluar dari program. Ketika pengguna memilih menu tambah kendaraan, program akan meminta pengguna memasukkan nama atau nomor kendaraan yang ingin dimasukkan ke dalam antrean. Setiap kendaraan yang berhasil dimasukkan akan disimpan sesuai urutan kedatangannya menggunakan konsep queue atau antrean. Setelah kendaraan masuk, program secara otomatis mengecek jumlah kendaraan yang sedang mengantre. Jika jumlah kendaraan masih di bawah 10, maka sistem akan menampilkan informasi bahwa antrean masih lancar dan aman. Namun, jika jumlah kendaraan sudah mencapai atau melebihi 10 kendaraan, sistem akan memberikan peringatan bahwa antrean sedang padat. Selain itu, program juga dapat menampilkan daftar seluruh kendaraan yang sedang berada di dalam antrean mulai dari kendaraan paling depan hingga paling belakang, sehingga pengguna dapat melihat kondisi antrean secara lengkap dan teratur.
 
 
 
