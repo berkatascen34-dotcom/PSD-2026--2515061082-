@@ -195,21 +195,25 @@ Menjalankan fungsi utama program antrean kendaraan.
 
 Output 
 Ketika User Menambahkan Daftar Kendaraan ke Sistem
+
 <img width="337" height="233" alt="Cuplikan layar 2026-05-18 213626" src="https://github.com/user-attachments/assets/f7c9cab4-2c76-42b0-a4c5-c92e7196b87d" />
 
 ---
 
 Ketika User Mengeluarkan Kendaraan Dari Antrean 
+
 <img width="341" height="177" alt="Cuplikan layar 2026-05-18 213841" src="https://github.com/user-attachments/assets/ab5eec72-b49e-4059-a895-96efc36b7789" />
 
 ---
 
 Ketika User Meminta Sistem Menampilkan Daftar Mobil Yang Ada Di Depan
+
 <img width="306" height="178" alt="Cuplikan layar 2026-05-18 213924" src="https://github.com/user-attachments/assets/c4c1a8f9-a6c2-4775-ba9f-1f377412c6a5" />
 
 ---
 
 Ketika Sistem Menampilkan Urutan Antrean Kendaraan Yang Ada Dan Status Yang Terjadi 
+
 <img width="328" height="435" alt="Cuplikan layar 2026-05-18 213910" src="https://github.com/user-attachments/assets/486f5052-cd77-4cd6-ad18-4aa688fbf52b" />
 
 
