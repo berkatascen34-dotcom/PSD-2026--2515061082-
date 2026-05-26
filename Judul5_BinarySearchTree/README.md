@@ -4,6 +4,8 @@ Judul Program : Sistem Antrean Kendaraan
 
 Program **Sistem Antrean Bengkel** ini digunakan untuk membantu mengelola nomor antrean kendaraan yang akan melakukan servis di bengkel. Program bekerja dengan menyimpan nomor antrean ke dalam struktur data Binary Search Tree (BST) sehingga data dapat disimpan dan dikelola dengan lebih teratur. Pengguna dapat menambahkan nomor antrean kendaraan yang baru datang, menghapus nomor antrean kendaraan yang sudah selesai servis, serta melihat seluruh daftar antrean yang masih menunggu. Selain itu, program juga dapat menampilkan tingkat atau tinggi antrean yang tersimpan, mencari nomor antrean berikutnya setelah suatu nomor tertentu, dan mencari nomor antrean sebelumnya. Dengan adanya fitur-fitur tersebut, proses pengelolaan antrean menjadi lebih mudah, cepat, dan terorganisir sehingga petugas bengkel dapat mengetahui urutan kendaraan yang sedang menunggu maupun yang akan dilayani berikutnya.
 
+---
+
 <img width="792" height="878" alt="Cuplikan layar 2026-05-26 174209" src="https://github.com/user-attachments/assets/3964674a-fdff-4b56-83dc-5383b3531616" />
 <img width="806" height="801" alt="Cuplikan layar 2026-05-26 174240" src="https://github.com/user-attachments/assets/fc11ad29-f31d-4974-b024-525f5c2b3cd7" />
 <img width="796" height="811" alt="Cuplikan layar 2026-05-26 174310" src="https://github.com/user-attachments/assets/5cd65476-405b-432e-8185-3cac5d1300d4" />
@@ -160,21 +162,15 @@ User Mau Melihat Kembali Tampilan Antrian Yang Terbaru
 
 Penjelasan OutPut 
 
-Pada output program, tampilan pertama yang muncul adalah judul program, yaitu **Sistem Antrean Bengkel**. Setelah itu, pengguna akan melihat beberapa menu yang dapat dipilih, seperti menambah antrean kendaraan, menghapus antrean kendaraan yang telah selesai servis, menampilkan daftar antrean, melihat tingkat antrean, mencari antrean berikutnya, mencari antrean sebelumnya, dan keluar dari program.
+Pada saat program dijalankan, tampilan pertama yang muncul adalah judul Sistem Antrean Bengkel beserta menu yang tersedia. Pengguna dapat memilih menu untuk menambah antrean kendaraan, menghapus antrean yang sudah selesai servis, menampilkan daftar antrean, melihat tingkat antrean, mencari antrean berikutnya, mencari antrean sebelumnya, atau keluar dari program.
 
-Ketika pengguna memilih menu **Tambah Antrean Kendaraan**, program akan meminta pengguna memasukkan nomor antrean kendaraan. Nomor antrean yang dimasukkan akan disimpan ke dalam struktur data Binary Search Tree (BST). Program juga menggunakan penanganan kesalahan (*exception handling*) sehingga jika pengguna memasukkan data yang bukan angka, program akan menampilkan pesan bahwa input tidak valid dan meminta pengguna mengulangi proses input.
+Saat menambahkan antrean, pengguna diminta memasukkan nomor antrean kendaraan yang kemudian akan disimpan ke dalam sistem. Setelah data dimasukkan, pengguna dapat melihat seluruh antrean yang tersimpan. Jika ada kendaraan yang sudah selesai servis, nomor antreannya dapat dihapus dari sistem.
 
-Setelah beberapa nomor antrean berhasil dimasukkan, pengguna dapat memilih menu **Tampilkan Antrean** untuk melihat seluruh nomor antrean yang tersimpan. Data akan ditampilkan menggunakan metode *Level Order Traversal*, yaitu menampilkan node dari level paling atas ke level berikutnya secara berurutan.
+Program juga menyediakan fitur untuk melihat tingkat antrean yang terbentuk, mencari antrean berikutnya, dan mencari antrean sebelumnya. Program akan terus menampilkan menu utama hingga pengguna memilih menu Keluar, kemudian program akan berhenti dijalankan.
 
-Pengguna juga dapat memilih menu **Kendaraan Selesai Service** untuk menghapus nomor antrean tertentu dari sistem. Setelah nomor antrean berhasil dihapus, program akan memperbarui struktur BST secara otomatis agar tetap sesuai dengan aturan Binary Search Tree.
+---
 
-Pada menu **Lihat Tingkat Antrean**, program akan menghitung dan menampilkan tinggi pohon BST yang terbentuk dari data antrean yang telah dimasukkan. Informasi ini menunjukkan jumlah tingkat atau level yang dimiliki oleh struktur pohon saat ini.
-
-Selanjutnya, pada menu **Cari Antrean Berikutnya**, pengguna dapat memasukkan nomor antrean tertentu untuk mengetahui nomor antrean yang akan dipanggil setelah nomor tersebut. Program akan mencari nilai *successor* dari nomor antrean yang dipilih dan menampilkannya kepada pengguna apabila ditemukan.
-
-Pada menu **Cari Antrean Sebelumnya**, pengguna dapat memasukkan nomor antrean tertentu untuk mengetahui nomor antrean yang berada sebelum nomor tersebut. Program akan mencari nilai *predecessor* dan menampilkan hasilnya apabila data ditemukan.
-
-Program akan terus menampilkan menu utama dan menerima perintah dari pengguna sampai pengguna memilih menu **Keluar**. Ketika menu keluar dipilih, program akan menampilkan pesan bahwa program telah selesai dijalankan dan kemudian berhenti.
+Link YouTube : https://youtu.be/x3VU716eR7A
 
 
 
