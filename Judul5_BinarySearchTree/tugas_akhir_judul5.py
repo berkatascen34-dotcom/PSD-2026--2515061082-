@@ -61,15 +61,6 @@ class AntreanBengkel:
     def delete(self, nomor):
         self.root = self.hapus_antrean(self.root, nomor)
 
-    def jumlah_level(self, root):
-        if root is None:
-            return -1
-
-        kiri = self.jumlah_level(root.left)
-        kanan = self.jumlah_level(root.right)
-
-        return 1 + max(kiri, kanan)
-
     def tampilkan_antrean(self, root):
         if root is None:
             print("(Tidak ada antrean)")
@@ -153,15 +144,14 @@ def main():
     bengkel = AntreanBengkel()
     pilih = 0
 
-    while pilih != 7:
+    while pilih != 6:
         print("\n=== SISTEM ANTREAN BENGKEL ===")
         print("1. Tambah Antrean Kendaraan")
         print("2. Kendaraan Selesai Service")
         print("3. Tampilkan Antrean")
-        print("4. Lihat Tingkat Antrean")
-        print("5. Cari Antrean Berikutnya")
-        print("6. Cari Antrean Sebelumnya")
-        print("7. Keluar")
+        print("4. Cari Antrean Berikutnya")
+        print("5. Cari Antrean Sebelumnya")
+        print("6. Keluar")
 
         try:
             pilih = int(input("Pilih menu: "))
@@ -190,9 +180,6 @@ def main():
             bengkel.tampilkan_antrean(bengkel.root)
 
         elif pilih == 4:
-            print(f"Tingkat antrean saat ini: {bengkel.jumlah_level(bengkel.root)}")
-
-        elif pilih == 5:
             try:
                 nomor = int(input("Cari antrean setelah nomor: "))
                 hasil, ditemukan = bengkel.antrean_berikutnya(bengkel.root, nomor)
@@ -204,7 +191,7 @@ def main():
             except ValueError:
                 print("Input tidak valid!")
 
-        elif pilih == 6:
+        elif pilih == 5:
             try:
                 nomor = int(input("Cari antrean sebelum nomor: "))
                 hasil, ditemukan = bengkel.antrean_sebelumnya(bengkel.root, nomor)
@@ -216,7 +203,7 @@ def main():
             except ValueError:
                 print("Input tidak valid!")
 
-        elif pilih == 7:
+        elif pilih == 6:
             print("Program selesai.")
 
         else:
