@@ -4,6 +4,7 @@ class Node:
         self.value = value
         self.next = None
 
+
 class HashMapSeparateChaining:
     def __init__(self, size=10):
         self.SIZE = size
@@ -37,29 +38,10 @@ class HashMapSeparateChaining:
 
         return None
 
-    def remove_key(self, key):
-        index = self.hash_function(key)
-        current = self.table[index]
-        prev = None
-
-        while current is not None:
-            if current.key == key:
-                if prev is None:
-                    self.table[index] = current.next
-                else:
-                    prev.next = current.next
-                return True
-
-            prev = current
-            current = current.next
-
-        return False
-
     def display(self):
         print("\nIsi Lemari Baju:")
         for i in range(self.SIZE):
-            print(f"Sekat {i}: ", end="")
-
+            print(f"{i}: ", end="")
             current = self.table[i]
 
             while current is not None:
@@ -70,33 +52,23 @@ class HashMapSeparateChaining:
 
 
 def main():
+    hashmap = HashMapSeparateChaining()
 
-    lemari = HashMapSeparateChaining()
+    hashmap.insert(1, "Kaos Merah")
+    hashmap.insert(11, "Kemeja Merah")
+    hashmap.insert(21, "Jaket Merah")
+    hashmap.insert(2, "Kaos Biru")
 
-    print("=== PENYIMPANAN BAJU MENGGUNAKAN HASH MAP ===")
+    hashmap.display()
 
-    lemari.insert(1, "Kaos Merah")
-    lemari.insert(11, "Kemeja Merah")
-    lemari.insert(21, "Jaket Merah")
-    lemari.insert(2, "Kaos Biru")
+    kode_baju = int(input("\nMasukkan kode baju: "))
 
-    print("\nSetelah menambahkan baju:")
-    lemari.display()
-
-    print("\nMencari Kemeja Merah (kode 11)...")
-
-    hasil = lemari.search(11)
+    hasil = hashmap.search(kode_baju)
 
     if hasil is not None:
-        print("Baju ditemukan :", hasil.value)
+        print(f"Nama baju dengan kode {kode_baju}: {hasil.value}")
     else:
         print("Baju tidak ditemukan")
-
-    print("\nMenghapus Kemeja Merah (kode 11)...")
-    lemari.remove_key(11)
-
-    print("\nIsi lemari setelah penghapusan:")
-    lemari.display()
 
 
 if __name__ == "__main__":
