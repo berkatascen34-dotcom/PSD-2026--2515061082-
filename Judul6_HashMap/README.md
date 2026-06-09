@@ -1,5 +1,6 @@
+Tugas Akhir Judul 6 
 
-
+Judul : Susunan Baju Acak
 
 Program ini dibuat untuk mensimulasikan sebuah lemari baju digital yang dapat menyimpan, menampilkan, dan mencari data baju berdasarkan kode yang telah ditentukan. Setiap baju yang dimasukkan akan secara otomatis ditempatkan ke dalam sekat yang sesuai menggunakan perhitungan hash, sehingga proses pencarian menjadi lebih cepat dan terorganisir. Program ini juga mampu menangani kondisi di mana dua atau lebih baju memiliki hasil hash yang sama dengan menggunakan teknik Separate Chaining, yaitu menyusun baju-baju tersebut seperti rantai di dalam satu sekat sehingga tidak ada data yang hilang atau tertimpa. Selain itu, program ini juga memungkinkan pengguna untuk berinteraksi langsung dengan cara memasukkan kode baju yang ingin dicari, kemudian program akan menampilkan nama baju tersebut jika ditemukan atau memberikan pemberitahuan jika baju tidak ada di dalam lemari.
 
@@ -139,6 +140,24 @@ if name == "main": dan main() Pengaman program. Fungsi main hanya dijalankan kal
 
 Output
 
+Ketika User Menginputkan Key 1 
+
+<img width="743" height="319" alt="Cuplikan layar 2026-06-09 194745" src="https://github.com/user-attachments/assets/be64a459-7ac8-4e0d-864f-eaa7bdd422b9" />
+
+Ketika User Menginputkan Key 11
+
+<img width="717" height="314" alt="Cuplikan layar 2026-06-09 194757" src="https://github.com/user-attachments/assets/2525b991-912a-491d-b3a6-b7ca0c0d3651" />
+
+Ketika User Menginputkan Key 2
+
+<img width="745" height="318" alt="Cuplikan layar 2026-06-09 194817" src="https://github.com/user-attachments/assets/d05cdd27-f19c-4c27-81e5-6ad69da788cc" />
+
+Ketika User Menginputkan Key 6
+
+<img width="689" height="313" alt="Cuplikan layar 2026-06-09 194808" src="https://github.com/user-attachments/assets/e9ab27a5-0164-486f-8f54-58be903c0c34" />
+
+---
+
 Penjelasan Output
 
 Pada saat program dijalankan, tampilan pertama yang muncul adalah judul Isi Lemari Baju yang berisi data baju yang telah disimpan ke dalam sistem menggunakan metode Hash Map Separate Chaining. Program secara otomatis menambahkan beberapa data baju, yaitu Kaos Merah, Kemeja Merah, Jaket Merah, dan Kaos Biru ke dalam hash table. Setelah itu, seluruh data yang tersimpan akan ditampilkan sesuai dengan posisi sekat hasil perhitungan fungsi hash.
@@ -146,3 +165,8 @@ Pada saat program dijalankan, tampilan pertama yang muncul adalah judul Isi Lema
 Selanjutnya, pengguna diminta memasukkan kode baju yang ingin dicari. Program akan menggunakan fungsi search() untuk mencari data baju berdasarkan kode yang dimasukkan. Proses pencarian dilakukan dengan langsung menuju sekat yang sesuai, kemudian menelusuri rantai data (chaining) apabila terdapat lebih dari satu baju pada sekat yang sama akibat terjadinya collision.
 
 Jika kode baju ditemukan, program akan menampilkan nama baju yang sesuai dengan kode tersebut. Namun, jika kode yang dimasukkan tidak terdapat di dalam sistem, program akan menampilkan pesan bahwa baju tidak ditemukan. Setelah hasil pencarian ditampilkan, program selesai dijalankan.
+
+---
+---
+
+Link YouTube : 
