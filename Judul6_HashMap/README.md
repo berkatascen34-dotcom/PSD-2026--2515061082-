@@ -169,4 +169,4 @@ Jika kode baju ditemukan, program akan menampilkan nama baju yang sesuai dengan 
 ---
 ---
 
-Link YouTube : 
+Link YouTube : https://youtu.be/m2qA9Rvdwww?si=0HR5jiM3_shSXegC
