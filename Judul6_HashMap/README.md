@@ -1,6 +1,6 @@
-Tugas Akhir Judul 6 
+Tugas Akhir Percobaan 6 
 
-Judul : Susunan Baju Acak
+Judul Program : Susunan Baju Acak
 
 Program ini dibuat untuk mensimulasikan sebuah lemari baju digital yang dapat menyimpan, menampilkan, dan mencari data baju berdasarkan kode yang telah ditentukan. Setiap baju yang dimasukkan akan secara otomatis ditempatkan ke dalam sekat yang sesuai menggunakan perhitungan hash, sehingga proses pencarian menjadi lebih cepat dan terorganisir. Program ini juga mampu menangani kondisi di mana dua atau lebih baju memiliki hasil hash yang sama dengan menggunakan teknik Separate Chaining, yaitu menyusun baju-baju tersebut seperti rantai di dalam satu sekat sehingga tidak ada data yang hilang atau tertimpa. Selain itu, program ini juga memungkinkan pengguna untuk berinteraksi langsung dengan cara memasukkan kode baju yang ingin dicari, kemudian program akan menampilkan nama baju tersebut jika ditemukan atau memberikan pemberitahuan jika baju tidak ada di dalam lemari.
 
